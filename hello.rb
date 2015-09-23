@@ -5,6 +5,7 @@ get '/' do
   "Hello World!<br>" +
   "<a href='/today'>today</a><br>" +
   "<a href='/now'>now</a>"
+  "<a href='/datetime'>datetime</a>"
 end
 
 get '/today' do
